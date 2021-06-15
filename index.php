@@ -13,7 +13,7 @@
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- Custom Styling -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>My blog</title>
@@ -58,20 +58,20 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/image_1.png" class="d-block w-100" alt="...">
+                <img src="assets/images/image_1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption-hack carousel-caption d-none d-md-block">
                     <h5><a href=""> First slide label</a></h5>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="images/image_2.png" class="d-block w-100" alt="...">
+                <img src="assets/images/image_2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption-hack carousel-caption d-none d-md-block">
                     <h5><a href=""> First slide label</a></h5>
                 </div>
             </div>
             <div class="carousel-item">
                 <!--<img src="images/image_3.png" class="d-block w-100" alt="...">-->
-                <img src="images/2.jpg" class="d-block w-100" alt="...">
+                <img src="assets/images/2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption-hack carousel-caption d-none d-md-block">
                     <h5><a href=""> First slide label</a></h5>
                 </div>
@@ -98,7 +98,7 @@
 
             <div class="post row">
                 <div class="img col-12 col-md-4">
-                    <img src="images/image_small.png" alt="" class="img-thumbnail">
+                    <img src="assets/images/image_small.png" alt="" class="img-thumbnail">
                 </div>
                 <div class="post_text col-12 col-md-8">
                     <h3>
@@ -114,7 +114,7 @@
             </div>
             <div class="post row">
                 <div class="img col-12 col-md-4">
-                    <img src="images/image_small.png" alt="" class="img-thumbnail">
+                    <img src="assets/images/image_small.png" alt="" class="img-thumbnail">
                 </div>
                 <div class="post_text col-12 col-md-8">
                     <h3>
@@ -130,7 +130,7 @@
             </div>
             <div class="post row">
                 <div class="img col-12 col-md-4">
-                    <img src="images/image_small.png" alt="" class="img-thumbnail">
+                    <img src="assets/images/image_small.png" alt="" class="img-thumbnail">
                 </div>
                 <div class="post_text col-12 col-md-8">
                     <h3>
@@ -146,7 +146,7 @@
             </div>
             <div class="post row">
                 <div class="img col-12 col-md-4">
-                    <img src="images/image_small.png" alt="" class="img-thumbnail">
+                    <img src="assets/images/image_small.png" alt="" class="img-thumbnail">
                 </div>
                 <div class="post_text col-12 col-md-8">
                     <h3>
@@ -162,7 +162,7 @@
             </div>
             <div class="post row">
                 <div class="img col-12 col-md-4">
-                    <img src="images/image_small.png" alt="" class="img-thumbnail">
+                    <img src="assets/images/image_small.png" alt="" class="img-thumbnail">
                 </div>
                 <div class="post_text col-12 col-md-8">
                     <h3>
@@ -178,7 +178,7 @@
             </div>
             <div class="post row">
                 <div class="img col-12 col-md-4">
-                    <img src="images/image_small.png" alt="" class="img-thumbnail">
+                    <img src="assets/images/image_small.png" alt="" class="img-thumbnail">
                 </div>
                 <div class="post_text col-12 col-md-8">
                     <h3>

@@ -13,7 +13,7 @@
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- Custom Styling -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>My blog</title>
@@ -61,7 +61,7 @@
 
             <div class="single_post row">
                 <div class="img col-12">
-                    <img src="images/image_1.png" alt="" class="img-thumbnail">
+                    <img src="assets/images/image_1.png" alt="" class="img-thumbnail">
                 </div>
                 <div class="info">
                     <i class="far fa-user"> Имя Автора</i>
@@ -192,7 +192,7 @@
             <div class="footer-section contact-form col-md-4 col-12">
                 <h3>Контакты</h3>
                 <br>
-                <form action="index.html" method="post">
+                <form action="index.php" method="post">
                     <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
                     <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
                     <button type="submit" class="btn btn-big contact-btn">
