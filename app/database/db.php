@@ -19,6 +19,7 @@ function dbCheckError($query)
     }
     return true;
 }
+
 // Запрос на получение данных одной таблицы
 function selectAll($table, $params = [])
 {
@@ -52,9 +53,6 @@ $params = [
 
 // tt(selectAll('users', $params));
 
-
-
-
 // Запрос на получение одной строки с выбранной таблицы
 function selectOne($table, $params = [])
 {
@@ -85,4 +83,40 @@ function selectOne($table, $params = [])
     return $query->fetch();
 }
 
-tt(selectOne('users'));
+// tt(selectOne('users'));
+
+
+function insert($table, $params)
+{
+    $i=0;
+    $coll='';
+    $mask='';
+    foreach ($params as $key => $value) {
+        if ($i === 0) {
+            $coll = $coll . "$key";
+            $mask = $mask . "'" . "$value" . "'";
+        } else {
+            $coll = $coll . ", $key";
+            $mask = $mask . ", " . "'" . $value . "'";
+        }
+        $i++;
+    }
+    global $pdo;
+    $sql = "INSERT INTO $table ($coll) VALUES ($mask)";
+
+    // tt($sql);
+    // exit();
+    $query = $pdo->prepare($sql);
+    $query->execute($params);
+    dbCheckError($query);
+}
+
+
+$arrData = [
+  'admin' => '0',
+  'username' => '123213',
+  'email' => 'ads@a32313123123213sd.asd',
+  'password' => 'dsad'
+];
+
+insert('users', $arrData);
